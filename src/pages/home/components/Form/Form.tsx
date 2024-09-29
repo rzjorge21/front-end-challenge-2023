@@ -98,11 +98,13 @@ export const Form = () => {
     for (const [key, value] of Object.entries(formInfo)) {
       if(typeof value.value == 'string'){
         if(value.required && (value.value == '' || value.value == null)){
+          console.log('Error en Key: ', key);
           toast(`El campo ${value.label} es requerido.`)
           return;
         }
       }else if (typeof value.value == 'boolean'){
         if(value.required && (value.value == false)){
+          console.log('Error en Key: ', key);
           toast(`El campo ${value.label} es requerido.`)
           return;
         }

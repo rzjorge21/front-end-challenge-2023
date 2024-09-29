@@ -8,7 +8,7 @@ Este proyecto fue desarrollado tomando como base el prototipo del siguiente [enl
   
 
 ## Demo
-Para ver el proyecto desplegado dirigirse al siguiente [link](https://front-end-challenge-2023.vercel.app/)
+Para ver el proyecto desplegado dirigirse al siguiente [link](https://front-end-challenge-2023-38as41kz0-jorge-ramons-projects.vercel.app/)
 
 ## Primeros pasos
 

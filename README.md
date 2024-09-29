@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# README.MD
+Frontend Challenge - RIMAC 2023
 
-Currently, two official plugins are available:
+## Contenido
+Este proyecto fue desarrollado tomando como base el prototipo del siguiente [enlace](https://www.figma.com/file/KGftIKxhcVm41kTKMsfTh2/Frontend-Challenge-2023)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
 
-## Expanding the ESLint configuration
+## Demo
+Para ver el proyecto desplegado dirigirse al siguiente [link](https://front-end-challenge-2023.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Primeros pasos
 
-- Configure the top-level `parserOptions` property like this:
+1.  ```npm install```
+2.  ```npm run dev```
+  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Paquetes utilizados
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+"axios": "^1.7.7",
+"react": "^18.3.1",
+"react-dom": "^18.3.1",
+"react-router-dom": "^6.26.2",
+"react-toastify": "^10.0.5",
+"zustand": "^5.0.0-rc.2"
 ```

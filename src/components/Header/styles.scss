@@ -1,0 +1,36 @@
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header__contact-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .contact-info__text {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .contact-info__number {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 56px;
+
+    .contact-info__text {
+      display: none;
+    }
+  }  
+}

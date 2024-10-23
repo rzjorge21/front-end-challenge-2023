@@ -8,12 +8,15 @@
 
   .footer__content {
     max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
     height: 100%;
     padding-left: 120px;
     padding-right: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
     .content__divider {
       width: 100%;
